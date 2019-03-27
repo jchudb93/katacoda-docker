@@ -23,3 +23,5 @@ CMD ["npm", "start"]
 ```
 
 The just "docker build -t nodeapp . " and then "docker run -d --name my-node-app  -p 3000:3000 nodeapp"
+
+You can run environment variables via docker "docker run -d --name my-production-running-app -e NODE_ENV=production -p 3000:3000 my-nodejs-app"
