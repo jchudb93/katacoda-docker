@@ -22,4 +22,4 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-The just "docker build -t nodeapp .
+The just "docker build -t nodeapp . " and then "docker run -d --name my-node-app  -p 3000:3000 nodeapp"
